@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render CardPlayer with custom props 1`] = `
+<video
+  controls={false}
+  poster="http://images5.fanpop.com/image/photos/30700000/Random-random-30798866-500-325.jpg"
+  style={
+    Object {
+      "width": 720,
+    }
+  }
+>
+  <source
+    src="https://www.youtube.com/embed/gLRWloiIC58"
+    type="video/mp4"
+  />
+</video>
+`;
+
+exports[`Should render CardPlayer with default props 1`] = `
+<video
+  controls={true}
+  poster={null}
+  style={Object {}}
+>
+  <source
+    src="https://www.youtube.com/embed/gLRWloiIC58"
+    type="video/mp4"
+  />
+</video>
+`;
