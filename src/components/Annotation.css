@@ -1,0 +1,19 @@
+.cardContainer {
+  width: 854px;
+  height: 480px;
+  background-color: lavenderblush;
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.exit {
+  margin: 20px;
+}
+
+.exit:hover {
+  text-decoration: underline;
+  margin: 20px;
+}
