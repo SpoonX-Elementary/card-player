@@ -25,3 +25,19 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
+
+## Formatting your JSON instructions
+
+Keys corresponds to time in seconds.
+In this example, the card will appear at 3s and 10s of the video.
+
+```
+{
+  "3": {
+    "type": "checkbox"
+  },
+  "10": {
+    "type": "radio"
+  },
+}
+```
