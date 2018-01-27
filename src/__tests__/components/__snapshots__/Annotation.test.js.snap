@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should not render Annotation 1`] = `null`;
+
+exports[`Should render Annotation 1`] = `
+<div
+  className="cardContainer"
+>
+  <a
+    className="exit"
+    onClick={[Function]}
+  >
+    Close
+  </a>
+</div>
+`;
