@@ -2,6 +2,8 @@
 
 A video player with card system.
 
+[Live url](https://card-player.netlify.com)
+
 ## Available Scripts
 
 In the project directory, you can run:
