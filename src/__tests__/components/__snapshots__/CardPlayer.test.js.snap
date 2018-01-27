@@ -2,6 +2,7 @@
 
 exports[`Should render CardPlayer with custom props 1`] = `
 <video
+  className="player"
   controls={false}
   poster="http://images5.fanpop.com/image/photos/30700000/Random-random-30798866-500-325.jpg"
   style={
@@ -19,6 +20,7 @@ exports[`Should render CardPlayer with custom props 1`] = `
 
 exports[`Should render CardPlayer with default props 1`] = `
 <video
+  className="player"
   controls={true}
   poster={null}
   style={Object {}}

@@ -1,9 +1,7 @@
 import { createStore, combineReducers } from 'redux';
+import main from './reducers';
 
-const store = () => {
-  const reducers = combineReducers({});
+const reducers = combineReducers({ main });
+const reduxDevTools = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__();
 
-  return createStore(reducers);
-};
-
-export default store;
+export default createStore(reducers, reduxDevTools);
